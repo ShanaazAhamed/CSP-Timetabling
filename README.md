@@ -37,7 +37,7 @@ slot
 algorithmic strategy for solving computing problems that takes into consideration looking 
 through all possible combinations.
 
-## To run virtual environment
+### To run virtual environment on VSCode
 
 
 ```
@@ -50,11 +50,24 @@ python3 -m venv .venv
 python -m venv .venv
 ```
 
+### On VSCode
+
 ```
 1. `ctrl` + `shift` + `p` and select Python Interpreter
 2. Select the `enter interpreter path`
 3. Browse and select `.venv/Scripts/python.exe`
 ```
+If you want to manually specify a default interpreter that will be used once you first open your workspace, you can create or modify an entry for `python.defaultInterpreterPath` setting in your workspace settings.json with the full path to the Python executable. 
+
+In `settings.json`
+
+```
+{
+  "python.defaultInterpreterPath": "YOUR_PATH/.venv/Scripts/python.exe"
+}
+
+```
+
 
 ## Input Command
 
