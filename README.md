@@ -15,6 +15,9 @@ SUB_2,o,M2,M3,Tu2,
 SUB_13,c,W1,Th3,F1,
 R1,R2,R3
 ```
+`c` - Compulsory
+
+`o` - Optional
 
 ### Constrains
 - A given subjects can be assigned only to one of the possible time slots given for that 
@@ -23,6 +26,8 @@ subject
 subject
 - Two subjects cannot be assigned to the same room if they are assigned to the same time 
 slot
+
+***
 
 ### Backtracking algorithm
 
@@ -36,6 +41,8 @@ slot
 `Backtracking` is a general 
 algorithmic strategy for solving computing problems that takes into consideration looking 
 through all possible combinations.
+
+***
 
 ### To run virtual environment on VSCode
 
@@ -86,4 +93,4 @@ SUB_13, F1, R1
 ```
 
 
-## Enjoy 🥳
+### Enjoy 🥳
