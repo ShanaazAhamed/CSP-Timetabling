@@ -31,7 +31,7 @@ slot
 
 ### Backtracking algorithm
 
-<p align="center">
+<p align="center" style="background:white">
 <img src="img/ba-state-space-tree.webp" width="50%">
 </p>
 <p align="center">
