@@ -5,6 +5,7 @@
 There is a list of subjects, a set of possible
 time slots for each subject and a set of rooms. Some subjects are compulsory while some are optional. Following are the constraints to satisfy.
 
+### Input.csv file
 ```
 SUB_1,o,Tu1,Tu2,F3,
 SUB_2,o,M2,M3,Tu2,
@@ -60,5 +61,16 @@ python -m venv .venv
 ```
 python main.py Input.csv Output.csv
 ```
+
+### Output.csv file
+
+```
+SUB_1, Tu1, R1
+SUB_2, M2, R1
+.
+.
+SUB_13, F1, R1
+```
+
 
 ## Enjoy 🥳
