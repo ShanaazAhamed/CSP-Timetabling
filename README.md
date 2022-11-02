@@ -52,8 +52,8 @@ python -m venv .venv
 
 ```
 1. `ctrl` + `shift` + `p` and select Python Interpreter
-2. Select the enter interpreter path
-3. select `.venv/Scripts/python.exe`
+2. Select the `enter interpreter path`
+3. Browse and select `.venv/Scripts/python.exe`
 ```
 
 ## Input Command
