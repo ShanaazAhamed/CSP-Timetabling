@@ -64,7 +64,7 @@ python -m venv .venv
 2. Select the `enter interpreter path`
 3. Browse and select `.venv/Scripts/python.exe`
 ```
-If you want to manually specify a default interpreter that will be used once you first open your workspace, you can create or modify an entry for `python.defaultInterpreterPath` setting in your workspace settings.json with the full path to the Python executable. 
+If you want to manually specify a default interpreter that will be used once you first open your workspace, you can create or modify an entry for `python.defaultInterpreterPath` setting in your workspace `settings.json` with the full path to the Python executable. 
 
 In `settings.json`
 
